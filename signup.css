@@ -1,0 +1,117 @@
+body{
+    font-family: 'Montserrat';
+  }
+
+  .nav-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    padding: 30px;
+    transition: all .7s;
+  }
+  
+  .menu-item{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #eee;
+    transition: color .5s;
+  }
+  
+  .menu-item:hover{
+    color: #70aed2;
+  }
+  
+  .line1, .line2, .line3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s
+  }
+  
+  .change .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .change .line2 {
+    opacity: 0;
+  }
+  
+  .change .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  .custom-navbar{
+    padding: 5px 30px;
+    background: linear gradient(rgba(0,0,0,.6), rgba(0,0,0,.7))
+  }
+    
+.form-container{
+  position: absolute;
+  top: 12vh;
+  background: #fff ;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+.bg{
+  background: url('cinque-terre-666601_1920.jpg') no-repeat;
+  
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 1200px){
+  .bg{
+    background-size: 120%;
+    
+  }
+  .bc{
+    
+    max-width: 140%;
+    
+    }
+}
+
+@media only screen and (max-width: 992px){
+  .bg{
+    background-size: 200%;
+    
+  }
+  .bc{
+    
+    max-width: 140%;
+    
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+  .bg{
+    background-size: 250%;
+    
+  }
+  .bc{
+    
+  max-width: 80%;
+  margin-left: 30px;
+  }
+
+}
+
+
+
+
+
+  /*footer*/
+.footer-link{
+  color: #eee;
+  font-size: 13px;
+  transition: all .3s;
+
+}
+.footer-link-hover{
+  color: #70aed2;
+  text-decoration: none;
+}
+.bf{
+  margin-top: -20px;
+}
